@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: #030304;
+  background-color: #0d0f11;
+}
+
+.ant-radio:hover .ant-radio-inner {
+  border-color: #0d0f11 ;
+}
+
+.ant-radio-checked .ant-radio-inner:focus{
+  border-color: red;
+}
