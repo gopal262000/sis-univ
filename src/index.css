@@ -24,3 +24,13 @@ code {
 .ant-radio-checked .ant-radio-inner:focus{
   border-color: red;
 }
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: inline-block;
+  margin-inline-end: 4px;
+  color: grey;
+  font-size: 14px;
+  font-family: SimSun,sans-serif;
+  line-height: 1;
+  content: "*";
+}
